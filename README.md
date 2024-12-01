@@ -80,3 +80,9 @@ python main.py decrypt encrypted_image.enc "t%h1@0biI{4}M01Tfq" decrypted_image.
   2. The password is used to derive the key.
   3. AES-GCM is used to decrypt the image data.
   4. The image is reconstructed using the decrypted data and saved to the specified output file.
+ 
+  ## Future Work
+  - **Support for More Formats:** We will include this project support for additional image formats (eg:WebP,GIF).  
+  - **GUI Application:** We will develop a simple GUI for this project which makes easier to use   
+  - **Password Strength Validation:** We will also implement a small function to validate the strength of the password before encrypting the image. 
+ 
